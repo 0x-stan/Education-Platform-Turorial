@@ -1,0 +1,10 @@
+[
+    {
+        "name": "ERC20 概述",
+        "type": 0,
+        "doc": "docs/ERC20_01.md",
+        "code": "",
+        "test_code": "",
+        "language": "hardhat"
+    }
+]
