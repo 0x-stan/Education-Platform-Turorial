@@ -15,28 +15,70 @@
           "id": 10000001,
           "title": "ERC20 概述",
           "description": "认识 ERC20 标准",
-          "doc": "erc20/01/README.md",
           "language": "hardhat",
-          "contract": "",
-          "test": ""
+          "layout": 0,
+          "files": [
+            {
+              "type": "doc",
+              "fileformat": "markdown",
+              "path": "erc20/01/README.md",
+              "editable": true
+            }
+          ]
         },
         {
           "id": 10000002,
           "title": "ERC20 的变量",
           "description": "从零开始编写自己的 Token 合约，本章节完成关键变量的设置",
-          "doc": "erc20/02/README.md",
           "language": "hardhat",
-          "contract": "erc20/02/contract.sol",
-          "test": "erc20/02/test.js"
+          "layout": 1,
+          "files": [
+            {
+              "type": "doc",
+              "fileformat": "markdown",
+              "path": "erc20/02/README.md",
+              "editable": true
+            },
+            {
+              "type": "code",
+              "fileformat": "solidity",
+              "path": "erc20/02/contract.sol",
+              "editable": true
+            },
+            {
+              "type": "code",
+              "fileformat": "js",
+              "path": "erc20/02/test.js",
+              "editable": false
+            }
+          ]
         },
         {
           "id": 10000003,
           "title": "ERC20 的转账逻辑",
           "description": "本章节完成关键函数转账逻辑的编写",
-          "doc": "erc20/03/README.md",
           "language": "hardhat",
-          "contract": "erc20/03/contract.sol",
-          "test": "erc20/03/test.js"
+          "layout": 1,
+          "files": [
+            {
+              "type": "doc",
+              "fileformat": "markdown",
+              "path": "erc20/03/README.md",
+              "editable": true
+            },
+            {
+              "type": "code",
+              "fileformat": "solidity",
+              "path": "erc20/03/contract.sol",
+              "editable": true
+            },
+            {
+              "type": "code",
+              "fileformat": "js",
+              "path": "erc20/03/test.js",
+              "editable": false
+            }
+          ]
         }
       ]
     }
