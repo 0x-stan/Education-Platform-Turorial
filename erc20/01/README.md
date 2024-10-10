@@ -10,8 +10,8 @@
 - 一盎司黄金
 - 以及其他让人脑洞大开的奇葩创意...
 
-![plug_standard.jpeg](./img/plug_standard.jpeg)
-![plug_pig.jpeg](./img/plug_pig.png)
+![plug_standard.jpeg](https://github.com/0x-stan/Education-Platform-Tutorial/raw/main/erc20/01/img/plug_standard.jpeg)
+![plug_pig.jpeg](https://github.com/0x-stan/Education-Platform-Tutorial/raw/main/erc20/01/img/plug_pig.png)
 
 然而，如果每次有人创建新的Token都得从头再写一遍，那将像每个国家都有不同的插头标准一样麻烦。而这正是 ERC-20 的用武之地！它就像一套统一的插头标准，让所有设备都能轻松兼容；就像编写网页应用时，不必每次都重新设计 API 一样，ERC-20 标准为大家省去了大量重复劳动。它使得像 Uniswap 这样的去中心化交易所只需一次开发就可以兼容任何符合 ERC-20 标准的Token。而且，钱包应用、去中心化金融（DeFi）协议等等，也能够直接使用这些Token，无缝衔接、互联互通，避免各种杂乱无章的情况。这对于所有人来说，都是一种理想的状态。例如，如果你想让Token代表黄金、白银或者猫币的价值，那就需要用到一些高级的 Solidity 特性。不过别担心，我们会一步步带你理解这些内容，慢慢来。
 
