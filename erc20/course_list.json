@@ -1,0 +1,44 @@
+{
+  "title": "Dapp 开发入门",
+  "description": "《Dapp 开发入门》课程旨在帮助学员掌握 Dapp 开发能力",
+  "creator": "dapplearning",
+  "time": 10,
+  "list": [
+    {
+      "id": 1,
+      "title": "ERC20",
+      "description": "本章节将帮助大家快速掌握 ERC20 的相关知识，从零开始一步步搭建属于自己的 Token 合约，理解 ERC20 的原理。",
+      "creator": "0xstan",
+      "time": 10,
+      "children": [
+        {
+          "id": 10000001,
+          "title": "ERC20 概述",
+          "description": "认识 ERC20 标准",
+          "doc": "erc20/01/README.md",
+          "language": "hardhat",
+          "contract": "",
+          "test": ""
+        },
+        {
+          "id": 10000002,
+          "title": "ERC20 的变量",
+          "description": "从零开始编写自己的 Token 合约，本章节完成关键变量的设置",
+          "doc": "erc20/02/README.md",
+          "language": "hardhat",
+          "contract": "erc20/02/contract.sol",
+          "test": "erc20/02/test.js"
+        },
+        {
+          "id": 10000003,
+          "title": "ERC20 的转账逻辑",
+          "description": "本章节完成关键函数转账逻辑的编写",
+          "doc": "erc20/03/README.md",
+          "language": "hardhat",
+          "contract": "erc20/03/contract.sol",
+          "test": "erc20/03/test.js"
+        }
+      ]
+    }
+  ]
+}
