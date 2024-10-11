@@ -22,7 +22,7 @@
               "type": "doc",
               "fileformat": "markdown",
               "path": "erc20/01/README.md",
-              "editable": true
+              "editable": false
             }
           ]
         },
@@ -37,7 +37,7 @@
               "type": "doc",
               "fileformat": "markdown",
               "path": "erc20/02/README.md",
-              "editable": true
+              "editable": false
             },
             {
               "type": "code",
@@ -64,7 +64,7 @@
               "type": "doc",
               "fileformat": "markdown",
               "path": "erc20/03/README.md",
-              "editable": true
+              "editable": false
             },
             {
               "type": "code",
@@ -76,6 +76,60 @@
               "type": "code",
               "fileformat": "js",
               "path": "erc20/03/test.js",
+              "editable": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "DEX 开发",
+      "description": "本章节将帮助大家快速掌握 DEX 的相关知识，从零开始一步步搭建属于自己的 Uniswap 合约，理解 DEX 的原理。",
+      "creator": "0xstan",
+      "time": 10,
+      "children": [
+        {
+          "id": 30000001,
+          "title": "DEX 理论与基础",
+          "description": "DEX 理论与基础",
+          "language": "hardhat",
+          "layout": 0,
+          "files": [
+            {
+              "type": "doc",
+              "fileformat": "markdown",
+              "path": "dex/01/README.md",
+              "editable": false
+            }
+          ]
+        },
+        {
+          "id": 30000002,
+          "title": "AMM 原理：恒定乘积公式",
+          "description": "AMM 原理：恒定乘积公式",
+          "language": "hardhat",
+          "layout": 0,
+          "files": [
+            {
+              "type": "doc",
+              "fileformat": "markdown",
+              "path": "dex/02/README.md",
+              "editable": false
+            }
+          ]
+        },
+        {
+          "id": 30000003,
+          "title": "搭建自己的 Uniswap：核心需求和接口",
+          "description": "搭建自己的 Uniswap：核心需求和接口",
+          "language": "hardhat",
+          "layout": 0,
+          "files": [
+            {
+              "type": "doc",
+              "fileformat": "markdown",
+              "path": "dex/03/README.md",
               "editable": false
             }
           ]
