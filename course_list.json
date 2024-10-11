@@ -41,13 +41,13 @@
             },
             {
               "type": "code",
-              "fileformat": "solidity",
+              "fileformat": "sol",
               "path": "erc20/02/contract.sol",
               "editable": true
             },
             {
               "type": "code",
-              "fileformat": "js",
+              "fileformat": "javascript",
               "path": "erc20/02/test.js",
               "editable": false
             }
@@ -68,13 +68,13 @@
             },
             {
               "type": "code",
-              "fileformat": "solidity",
+              "fileformat": "sol",
               "path": "erc20/03/contract.sol",
               "editable": true
             },
             {
               "type": "code",
-              "fileformat": "js",
+              "fileformat": "javascript",
               "path": "erc20/03/test.js",
               "editable": false
             }
