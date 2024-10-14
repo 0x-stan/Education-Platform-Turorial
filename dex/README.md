@@ -8,7 +8,7 @@
   - 主流 DEX 介绍与机制比较
 - AMM 原理：恒定乘积公式
   - 什么是 AMM
-  - 恒定乘积公式 (x * y = k)
+  - 恒定乘积公式 (x \* y = k)
   - 流动性池 (Liquidity Pool)
   - AMM 定价机制
   - 无常损失 (Impermanent Loss)
@@ -26,3 +26,7 @@
 - 搭建自己的 Uniswap：LP 奖励和无常损失
   - 流动性提供者的奖励机制
   - 无常损失的原理与避险策略
+
+## Reference
+
+- <https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code>
