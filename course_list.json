@@ -21,7 +21,7 @@
             {
               "type": "doc",
               "fileformat": "markdown",
-              "path": "erc20/01/README.md",
+              "source_path": "erc20/01/README.md",
               "editable": false
             }
           ]
@@ -36,19 +36,21 @@
             {
               "type": "doc",
               "fileformat": "markdown",
-              "path": "erc20/02/README.md",
+              "source_path": "erc20/02/README.md",
               "editable": false
             },
             {
               "type": "code",
               "fileformat": "sol",
-              "path": "erc20/02/contract.sol",
+              "source_path": "erc20/02/contract.sol",
+              "target_path": "contracts/contract.sol",
               "editable": true
             },
             {
               "type": "code",
               "fileformat": "javascript",
-              "path": "erc20/02/test.js",
+              "source_path": "erc20/02/test.js",
+              "target_path": "test/test.js",
               "editable": false
             }
           ]
@@ -63,19 +65,21 @@
             {
               "type": "doc",
               "fileformat": "markdown",
-              "path": "erc20/03/README.md",
+              "source_path": "erc20/03/README.md",
               "editable": false
             },
             {
               "type": "code",
               "fileformat": "sol",
-              "path": "erc20/03/contract.sol",
+              "source_path": "erc20/03/contract.sol",
+              "target_path": "contracts/contract.sol",
               "editable": true
             },
             {
               "type": "code",
               "fileformat": "javascript",
-              "path": "erc20/03/test.js",
+              "source_path": "erc20/03/test.js",
+              "target_path": "test/test.js",
               "editable": false
             }
           ]
@@ -99,7 +103,7 @@
             {
               "type": "doc",
               "fileformat": "markdown",
-              "path": "dex/01/README.md",
+              "source_path": "dex/01/README.md",
               "editable": false
             }
           ]
@@ -114,7 +118,7 @@
             {
               "type": "doc",
               "fileformat": "markdown",
-              "path": "dex/02/README.md",
+              "source_path": "dex/02/README.md",
               "editable": false
             }
           ]
@@ -129,7 +133,29 @@
             {
               "type": "doc",
               "fileformat": "markdown",
-              "path": "dex/03/README.md",
+              "source_path": "dex/03/README.md",
+              "editable": false
+            },
+            {
+              "type": "code",
+              "fileformat": "sol",
+              "source_path": "dex/03/Pool.sol",
+              "target_path": "contracts/Pool.sol",
+              "editable": true
+            },
+            {
+              "type": "code",
+              "fileformat": "javascript",
+              "source_path": "dex/03/Pool.test.js",
+              "target_path": "test/Pool.test.js",
+              "editable": false
+            }
+            ,
+            {
+              "type": "code",
+              "fileformat": "javascript",
+              "source_path": "dex/03/utils.js",
+              "target_path": "test/utils.js",
               "editable": false
             }
           ]

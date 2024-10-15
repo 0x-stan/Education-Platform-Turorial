@@ -1,4 +1,4 @@
-# 搭建自己的 Uniswap：核心需求和接口
+# 搭建自己的 Uniswap：核心需求和接口设计
 
 本节我们讲开始实现自己的 Uniswap 合约。
 
@@ -66,7 +66,9 @@ LP Token 是一种特殊 Token，用于代表流动性提供者在池中的份�
 
 ## 合约接口设计
 
-![uniswap-exchange.png](https://github.com/0x-stan/Education-Platform-Tutorial/raw/main/dex/03/img/uniswap-exchange.png)
+![uniswap-pool.png](https://github.com/0x-stan/Education-Platform-Tutorial/raw/main/dex/03/img/uniswap-pool.png)
+
+> 这里我们讲主要讨论 `pool` 合约 (满足交易功能的合约，形象的将其比喻为资产的池子，即交易池)，`Factory` 将在后续的章节中讨论。
 
 ### 1. **添加流动性**
 
@@ -221,14 +223,28 @@ function tokenToTokenSwap(
 
 ### 6. **查询函数**
 
-#### `getReserve`
+#### `getETHReserve`
+
+返回流动性池中的 ETH 储备量。
+
+**函数定义:**
+
+```solidity
+function getETHReserve() public view returns (uint256);
+```
+
+**返回值：**
+
+- `ETHReserve`：池中的 ETH 数量。
+
+#### `getTokenReserve`
 
 返回流动性池中的 ERC20 Token 储备量。
 
 **函数定义:**
 
 ```solidity
-function getReserve() public view returns (uint256);
+function getTokenReserve() public view returns (uint256);
 ```
 
 **返回值：**
@@ -276,3 +292,27 @@ function getEthAmount(uint256 _tokenSold) public view returns (uint256);
 - `ethAmount`：可获得的 ETH 数量。
 
 ---
+
+### Pool interface
+
+综合上述，我们就得到了 `Uniswap Pool` 合约的接口：
+
+```solidity
+interface IPool {
+    function addLiquidity(uint256 _tokenAmount) public payable returns (uint256);
+
+    function removeLiquidity(uint256 _amount) public returns (uint256, uint256);
+
+    function ethToTokenSwap(uint256 _minTokens) external payable;
+
+    function ethToTokenTransfer(uint256 _minTokens, address _recipient)
+        external
+        payable;
+    
+    function getETHReserve() public view returns (uint256);
+    
+    function getTokenReserve() public view returns (uint256);
+
+    function getEthAmount(uint256 _tokenSold) public view returns (uint256);
+}
+```
