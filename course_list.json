@@ -125,8 +125,8 @@
         },
         {
           "id": 30000003,
-          "title": "搭建自己的 Uniswap：核心需求和接口",
-          "description": "搭建自己的 Uniswap：核心需求和接口",
+          "title": "搭建自己的 Uniswap：核心需求和接口设计",
+          "description": "搭建自己的 Uniswap：核心需求和接口设计",
           "language": "hardhat",
           "layout": 0,
           "files": [
@@ -135,18 +135,33 @@
               "fileformat": "markdown",
               "source_path": "dex/03/README.md",
               "editable": false
+            }
+          ]
+        },
+        {
+          "id": 30000004,
+          "title": "搭建自己的 Uniswap：添加和移除流动性",
+          "description": "搭建自己的 Uniswap：添加和移除流动性",
+          "language": "hardhat",
+          "layout": 0,
+          "files": [
+            {
+              "type": "doc",
+              "fileformat": "markdown",
+              "source_path": "dex/04/README.md",
+              "editable": false
             },
             {
               "type": "code",
               "fileformat": "sol",
-              "source_path": "dex/03/Pool.sol",
+              "source_path": "dex/04/Pool.sol",
               "target_path": "contracts/Pool.sol",
               "editable": true
             },
             {
               "type": "code",
               "fileformat": "javascript",
-              "source_path": "dex/03/Pool.test.js",
+              "source_path": "dex/04/Pool.test.js",
               "target_path": "test/Pool.test.js",
               "editable": false
             }
@@ -154,7 +169,7 @@
             {
               "type": "code",
               "fileformat": "javascript",
-              "source_path": "dex/03/utils.js",
+              "source_path": "dex/04/utils.js",
               "target_path": "test/utils.js",
               "editable": false
             }
