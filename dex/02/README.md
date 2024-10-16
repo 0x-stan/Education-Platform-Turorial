@@ -74,7 +74,7 @@ $$(x + \Delta x)(y - \Delta y) = xy$$
 
 $$\Delta y = \frac{y \Delta x} {x + \Delta x}$$
 
-请注意，我们现在得到的 `Delta y` 是数量而不是价格。计算数量的方法对应 `Exchange.getAmount()`。
+请注意，我们现在得到的 `Delta y` 是数量而不是价格。
 
 ![x * y = k](https://github.com/0x-stan/Education-Platform-Tutorial/raw/main/dex/02/img/uniswap-v1-like-02.png)
 
