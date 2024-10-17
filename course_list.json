@@ -209,6 +209,70 @@
               "editable": false
             }
           ]
+        },
+        {
+          "id": 30000006,
+          "title": "搭建自己的 Uniswap：Factory 与 Router",
+          "description": "搭建自己的 Uniswap：Factory 与 Router，实现自动交易路由",
+          "language": "hardhat",
+          "layout": 0,
+          "files": [
+            {
+              "type": "doc",
+              "fileformat": "markdown",
+              "source_path": "dex/06/README.md",
+              "editable": false
+            },
+            {
+              "type": "code",
+              "fileformat": "sol",
+              "source_path": "dex/06/Factory.sol",
+              "target_path": "contracts/Factory.sol",
+              "editable": true
+            },
+            {
+              "type": "code",
+              "fileformat": "sol",
+              "source_path": "dex/06/Router.sol",
+              "target_path": "contracts/Router.sol",
+              "editable": true
+            },
+            {
+              "type": "code",
+              "fileformat": "sol",
+              "source_path": "dex/06/Pool.sol",
+              "target_path": "contracts/Pool.sol",
+              "editable": false
+            },
+            {
+              "type": "code",
+              "fileformat": "javascript",
+              "source_path": "dex/06/Pool.test.js",
+              "target_path": "test/Pool.test.js",
+              "editable": false
+            },
+            {
+              "type": "code",
+              "fileformat": "javascript",
+              "source_path": "dex/06/Factory.test.js",
+              "target_path": "test/Factory.test.js",
+              "editable": false
+            },
+            {
+              "type": "code",
+              "fileformat": "javascript",
+              "source_path": "dex/06/Router.test.js",
+              "target_path": "test/Router.test.js",
+              "editable": false
+            },
+            {
+              "type": "code",
+              "fileformat": "javascript",
+              "source_path": "dex/06/utils.js",
+              "target_path": "test/utils.js",
+              "editable": false
+            }
+          ]
         }
       ]
     }

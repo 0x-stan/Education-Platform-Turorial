@@ -21,8 +21,12 @@
   - 添加流动性 (add liquidity)
   - 移除流动性 (remove liquidity)
 - 搭建自己的 Uniswap：定价和交易
-  - 定价公式与滑点分析
-  - 交易合约的实现
+  - 实现定价功能
+  - 交易功能的实现
+- 搭建自己的 Uniswap：Factory 与 Router
+  - Token 交易 Token 的流程
+  - 实现 Factory
+  - 实现 Router
 
 ## Reference
 

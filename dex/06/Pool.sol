@@ -5,12 +5,15 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract Pool is ERC20 {
     // `tokenAddress` ERC20 token 的地址
     address public tokenAddress;
+    // `Factory` 的地址
+    address public factoryAddress;
 
     // constructor
     constructor(address _token) ERC20("LP token", "LPT") {
         require(_token != address(0), "invalid token address");
 
         tokenAddress = _token;
+        factoryAddress = msg.sender;
     }
 
     // `addLiquidity`
@@ -134,17 +137,6 @@ contract Pool is ERC20 {
             );
             payable(recipient).transfer(amountOut);
         }
-    }
-}
-
-// Test ERC20 Token
-contract Token is ERC20 {
-    constructor(
-        string memory name,
-        string memory symbol,
-        uint256 initialSupply
-    ) ERC20(name, symbol) {
-        _mint(msg.sender, initialSupply);
     }
 }
 

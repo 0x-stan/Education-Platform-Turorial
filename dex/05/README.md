@@ -71,7 +71,7 @@ function getEthAmount(uint256 amount) public view returns (uint256) {
 
     // 利用 `getAmount` 内部计算函数计算结果，并返回
 }
-````
+```
 
 ## swap (交易功能)
 
