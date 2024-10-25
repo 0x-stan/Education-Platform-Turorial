@@ -13,7 +13,7 @@
 
 为了改善这个流程，我们可以在合约中集成 Token 交易 Token 的功能，让用户可以一笔交易中完成。
 
-![MyUniswap.png](https://github.com/0x-stan/Education-Platform-Tutorial/raw/main/dex/06/img/MyUniswap.drawio.png)
+![MyUniswap.png](https://github.com/Dapp-Learning-DAO/Education-Platform-Tutorial/raw/main/dex/06/img/MyUniswap.drawio.png)
 
 具体的做法是添加一个 Router 合约 与 一个 Factory 合约：
 
