@@ -52,7 +52,7 @@ Msum  = (y / x) * x + (x / y) * y = y + x = x + y
 我们把之前的价格公式带入其中，就会发现总市值实际上就是两者的数量之和 `x + y`。
 即 `x + y = k`, `k` 为常数，其函数图形如下：
 
-![x + y = k](https://github.com/0x-stan/Education-Platform-Tutorial/raw/main/dex/02/img/uniswap-v1-like-01.png)
+![x + y = k](https://github.com/Dapp-Learning-DAO/Education-Platform-Tutorial/raw/main/dex/02/img/uniswap-v1-like-01.png)
 
 x 轴和 y 轴分别代表了两个代币在池内的数量，函数穿过 x 轴和 y 轴，根据图形可以很直观的看出这个公式允许 `x` 和 `y` 其中一个为 0！
 
@@ -76,7 +76,7 @@ $$\Delta y = \frac{y \Delta x} {x + \Delta x}$$
 
 请注意，我们现在得到的 `Delta y` 是数量而不是价格。
 
-![x * y = k](https://github.com/0x-stan/Education-Platform-Tutorial/raw/main/dex/02/img/uniswap-v1-like-02.png)
+![x * y = k](https://github.com/Dapp-Learning-DAO/Education-Platform-Tutorial/raw/main/dex/02/img/uniswap-v1-like-02.png)
 
 由上图看出来，乘积恒定的函数是一个双曲线，不会与 x 轴或 y 轴相交，这使得流动性近乎无限。
 

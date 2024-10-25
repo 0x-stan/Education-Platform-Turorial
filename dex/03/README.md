@@ -66,7 +66,7 @@ LP Token 是一种特殊 Token，用于代表流动性提供者在池中的份�
 
 ## 合约接口设计
 
-![uniswap-pool.png](https://github.com/0x-stan/Education-Platform-Tutorial/raw/main/dex/03/img/uniswap-pool.png)
+![uniswap-pool.png](https://github.com/Dapp-Learning-DAO/Education-Platform-Tutorial/raw/main/dex/03/img/uniswap-pool.png)
 
 > 这里我们讲主要讨论 `pool` 合约 (满足交易功能的合约，形象的将其比喻为资产的池子，即交易池)，`Factory` 将在后续的章节中讨论。
 
@@ -310,7 +310,7 @@ interface IPool {
         payable;
     
     function getETHReserve() public view returns (uint256);
-    
+
     function getTokenReserve() public view returns (uint256);
 
     function getEthAmount(uint256 _tokenSold) public view returns (uint256);
