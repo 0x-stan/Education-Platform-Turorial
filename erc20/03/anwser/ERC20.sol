@@ -21,7 +21,7 @@ contract Token {
         symbol = _symbol;
         decimals = _decimals;
         totalSupply = _initialSupply * (10 ** uint256(decimals));
-        balanceOf[msg.sender] = totalSupply; // 初始化发行给合约部署者
+        balanceOf[msg.sender] = totalSupply;
     }
 
     function transfer(address _to, uint256 _value) public returns (bool success) {
