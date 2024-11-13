@@ -11,21 +11,21 @@ describe("Token", () => {
     describe('ERC20 Optional', () => {
         context('`name`', () => {
             it('should return the correct name', async () => {
-                const name = await token.callStatic.name();
+                const name = await token.name();
                 assert.isAtLeast(name.length, 1);
             });
         });
 
         context('`symbol`', () => {
             it('should return the correct symbol', async () => {
-                const sym = await token.callStatic.symbol();
+                const sym = await token.symbol();
                 assert.equal(sym.length, 3);
             });
         });
 
         context('`decimals`', () => {
             it('should return the correct decimals', async () => {
-                const decimals = await token.callStatic.decimals();
+                const decimals = await token.decimals();
                 assert.equal(decimals, 18);
             });
         });
@@ -34,7 +34,7 @@ describe("Token", () => {
     describe('ERC20 Standard', () => {
         context('totalSupply', () => {
             it('should return zero', async () => {
-                const result = await token.callStatic.totalSupply();
+                const result = await token.totalSupply();
                 assert.equal(result.toString(), '0');
             });
         });

@@ -37,7 +37,7 @@ describe("Token", () => {
                 });
 
                 it('should decrease the owner\'s balance by 1', async () => {
-                    const balance = await token.callStatic.balanceOf(owner);
+                    const balance = await token.balanceOf(owner);
                     assert.equal(
                         balance.toString(),
                         totalSupply.sub("1").toString()
@@ -45,7 +45,7 @@ describe("Token", () => {
                 });
 
                 it('should increase the recipient\'s balance to 1', async () => {
-                    const balance = await token.callStatic.balanceOf(a1)
+                    const balance = await token.balanceOf(a1)
                     assert.equal(balance.toString(), '1')
                 });
 
@@ -68,7 +68,7 @@ describe("Token", () => {
                     });
 
                     it('should decrease the owner\'s balance by 1', async () => {
-                        const balance = await token.callStatic.balanceOf(owner)
+                        const balance = await token.balanceOf(owner)
                         assert.equal(
                             balance.toString(),
                             totalSupply.sub("2").toString()
@@ -76,7 +76,7 @@ describe("Token", () => {
                     });
 
                     it('should increase the recipient\'s balance by 1', async () => {
-                        const balance = await token.callStatic.balanceOf(a1);
+                        const balance = await token.balanceOf(a1);
                         assert.equal(balance.toString(), '2');
                     });
                 });
@@ -98,19 +98,19 @@ describe("Token", () => {
 
         context('balanceOf', () => {
             it('should return zero for any address other than the contract creator', async () => {
-                const balance = await token.callStatic.balanceOf(a1);
+                const balance = await token.balanceOf(a1);
                 assert.equal(balance.toString(), '0');
             });
 
             it('should return the total supply for the contract creator', async () => {
-                const balance = await token.callStatic.balanceOf(owner);
+                const balance = await token.balanceOf(owner);
                 assert.equal(balance.toString(), totalSupply.toString());
             });
         });
 
         context('totalSupply', () => {
             it('should return zero', async () => {
-                const result = await token.callStatic.totalSupply();
+                const result = await token.totalSupply();
                 assert.equal(result.toString(), totalSupply.toString());
             });
         });
@@ -119,21 +119,21 @@ describe("Token", () => {
     describe('ERC20 Optional', () => {
         context('`name`', () => {
             it('should return the correct name', async () => {
-                const name = await token.callStatic.name();
+                const name = await token.name();
                 assert.isAtLeast(name.length, 1);
             });
         });
 
         context('`symbol`', () => {
             it('should return the correct symbol', async () => {
-                const sym = await token.callStatic.symbol();
+                const sym = await token.symbol();
                 assert.equal(sym.length, 3);
             });
         });
 
         context('`decimals`', () => {
             it('should return the correct decimals', async () => {
-                const decimals = await token.callStatic.decimals();
+                const decimals = await token.decimals();
                 assert.equal(decimals, 18);
             });
         });
