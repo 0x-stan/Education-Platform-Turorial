@@ -9,7 +9,7 @@ describe("Token", () => {
       "DappLearning Test Token",
       "DLT",
       18,
-      10000
+      "10000"
     );
   });
 
