@@ -42,15 +42,15 @@
             {
               "type": "code",
               "fileformat": "sol",
-              "source_path": "erc20/02/contract.sol",
-              "target_path": "contracts/contract.sol",
+              "source_path": "erc20/02/ERC20.sol",
+              "target_path": "contracts/ERC20.sol",
               "editable": true
             },
             {
               "type": "code",
               "fileformat": "javascript",
-              "source_path": "erc20/02/test.js",
-              "target_path": "test/test.js",
+              "source_path": "erc20/02/erc20.test.js",
+              "target_path": "test/erc20.test.js",
               "editable": false
             }
           ]
@@ -71,15 +71,15 @@
             {
               "type": "code",
               "fileformat": "sol",
-              "source_path": "erc20/03/contract.sol",
-              "target_path": "contracts/contract.sol",
+              "source_path": "erc20/03/ERC20.sol",
+              "target_path": "contracts/ERC20.sol",
               "editable": true
             },
             {
               "type": "code",
               "fileformat": "javascript",
-              "source_path": "erc20/03/test.js",
-              "target_path": "test/test.js",
+              "source_path": "erc20/03/erc20.test.js",
+              "target_path": "test/erc20.test.js",
               "editable": false
             }
           ]
