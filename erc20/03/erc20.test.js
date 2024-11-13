@@ -2,6 +2,8 @@ const { assert, expect } = require("chai");
 const { ethers } = require("hardhat");
 describe("Token", () => {
   let token;
+  let owner;
+  let a1;
   const totalSupply = "10000";
 
   beforeEach(async () => {
