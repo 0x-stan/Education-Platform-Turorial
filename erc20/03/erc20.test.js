@@ -7,7 +7,7 @@ describe("Token", () => {
     beforeEach(async () => {
         const Token = await ethers.getContractFactory("Token");
         token = await Token.deploy();
-        await token.deployed();
+        // await token.deployed();
 
         const accounts = await ethers.provider.listAccounts();
         owner = accounts[0];
