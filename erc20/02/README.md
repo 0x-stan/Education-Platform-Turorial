@@ -39,7 +39,7 @@ mapping(address => uint256) public balanceOf;
 
 为合约设置以下变量
 
-- `totalSupply`: `uint256`类型， 总发行量; 请在构造函数中设置为 1000;
+- `totalSupply`: `uint256`类型， 总发行量; 请在构造函数中设置为 10000;
 - `decimals`: `uint8` 类型， 精度
 - `name`: `string` 类型， 名称
 - `symbol`: `string` 类型， 标识符

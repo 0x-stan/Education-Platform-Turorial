@@ -42,15 +42,15 @@
             {
               "type": "code",
               "fileformat": "sol",
-              "source_path": "erc20/02/contract.sol",
-              "target_path": "contracts/contract.sol",
+              "source_path": "erc20/02/ERC20.sol",
+              "target_path": "contracts/ERC20.sol",
               "editable": true
             },
             {
               "type": "code",
               "fileformat": "javascript",
-              "source_path": "erc20/02/test.js",
-              "target_path": "test/test.js",
+              "source_path": "erc20/02/erc20.test.js",
+              "target_path": "test/erc20.test.js",
               "editable": false
             }
           ]
@@ -71,15 +71,133 @@
             {
               "type": "code",
               "fileformat": "sol",
-              "source_path": "erc20/03/contract.sol",
-              "target_path": "contracts/contract.sol",
+              "source_path": "erc20/03/ERC20.sol",
+              "target_path": "contracts/ERC20.sol",
               "editable": true
             },
             {
               "type": "code",
               "fileformat": "javascript",
-              "source_path": "erc20/03/test.js",
-              "target_path": "test/test.js",
+              "source_path": "erc20/03/erc20.test.js",
+              "target_path": "test/erc20.test.js",
+              "editable": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "ERC20",
+      "description": "本章节将帮助大家快速掌握 ERC20 的相关知识，从零开始一步步搭建属于自己的 Token 合约，理解 ERC20 的原理。",
+      "creator": "0xstan",
+      "time": 10,
+      "children": [
+        {
+          "id": 20000001,
+          "title": "ERC721 概述",
+          "description": "认识 ERC721 标准",
+          "language": "hardhat",
+          "layout": 0,
+          "files": [
+            {
+              "type": "doc",
+              "fileformat": "markdown",
+              "source_path": "erc721/01/README.md",
+              "editable": false
+            }
+          ]
+        },
+        {
+          "id": 20000002,
+          "title": "ERC721 的变量",
+          "description": "从零开始编写自己的 ERC721 合约，本章节完成关键变量的设置",
+          "language": "hardhat",
+          "layout": 1,
+          "files": [
+            {
+              "type": "doc",
+              "fileformat": "markdown",
+              "source_path": "erc721/02/README.md",
+              "editable": false
+            },
+            {
+              "type": "code",
+              "fileformat": "sol",
+              "source_path": "erc721/02/ERC721.sol",
+              "target_path": "contracts/ERC721.sol",
+              "editable": true
+            },
+            {
+              "type": "code",
+              "fileformat": "javascript",
+              "source_path": "erc721/02/erc721.test.js",
+              "target_path": "test/erc721.test.js",
+              "editable": false
+            }
+          ]
+        },
+        {
+          "id": 20000003,
+          "title": "ERC721 核心功能和方法",
+          "description": "ERC721 核心功能和方法",
+          "language": "hardhat",
+          "layout": 1,
+          "files": [
+            {
+              "type": "doc",
+              "fileformat": "markdown",
+              "source_path": "erc721/03/README.md",
+              "editable": false
+            },
+            {
+              "type": "code",
+              "fileformat": "sol",
+              "source_path": "erc721/03/ERC721.sol",
+              "target_path": "contracts/ERC721.sol",
+              "editable": true
+            },
+            {
+              "type": "code",
+              "fileformat": "javascript",
+              "source_path": "erc721/03/erc721.test.js",
+              "target_path": "test/erc721.test.js",
+              "editable": false
+            }
+          ]
+        },
+        {
+          "id": 20000004,
+          "title": "Metadata 与 ERC721Enumerable 扩展功能详解",
+          "description": "Metadata 与 ERC721Enumerable 扩展功能详解",
+          "language": "hardhat",
+          "layout": 1,
+          "files": [
+            {
+              "type": "doc",
+              "fileformat": "markdown",
+              "source_path": "erc721/04/README.md",
+              "editable": false
+            },
+            {
+              "type": "code",
+              "fileformat": "sol",
+              "source_path": "erc721/04/ERC721.sol",
+              "target_path": "contracts/ERC721.sol",
+              "editable": true
+            },
+            {
+              "type": "code",
+              "fileformat": "sol",
+              "source_path": "erc721/04/ERC721Enumerable.sol",
+              "target_path": "contracts/ERC721Enumerable.sol",
+              "editable": true
+            },
+            {
+              "type": "code",
+              "fileformat": "javascript",
+              "source_path": "erc721/04/erc721Enumerable.test.js",
+              "target_path": "test/erc721Enumerable.test.js",
               "editable": false
             }
           ]
