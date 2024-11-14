@@ -87,9 +87,9 @@
       ]
     },
     {
-      "id": 1,
-      "title": "ERC20",
-      "description": "本章节将帮助大家快速掌握 ERC20 的相关知识，从零开始一步步搭建属于自己的 Token 合约，理解 ERC20 的原理。",
+      "id": 2,
+      "title": "ERC721",
+      "description": "本章节将帮助大家快速掌握 ERC721 的相关知识，从零开始一步步搭建属于自己的 Token 合约，理解 ERC20 的原理。",
       "creator": "0xstan",
       "time": 10,
       "children": [
